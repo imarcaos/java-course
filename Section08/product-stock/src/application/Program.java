@@ -21,8 +21,8 @@ public class Program {
 		System.out.print("Quantity in stock: ");
 		product.quantity = sc.nextInt();
 		
-		// print temporário
-		System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+		// print temporário para teste
+		System.out.println(product.toString());
 		
 		
 		sc.close();
