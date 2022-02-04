@@ -21,10 +21,28 @@ public class Program {
 		System.out.print("Quantity in stock: ");
 		product.quantity = sc.nextInt();
 		
-		// print temporário para teste
-		System.out.println(product.toString());
+		// dados do produto
+		System.out.println();
+		System.out.println("Product data: " + product);
 		
+		// adicionar mais produtos
+		System.out.println();
+		System.out.print("Enter the number of products to be added in stock: ");
+		int quantity = sc.nextInt();
+		product.addProducts(quantity);
 		
+		System.out.println();
+		System.out.println("Updated data: " + product);
+		
+		// adicionar mais produtos
+		System.out.println();
+		System.out.print("Enter the number of products to be removed from stock: ");
+		quantity = sc.nextInt(); // aproveito a variável quantity anterior
+		product.removeProducts(quantity);
+		
+		System.out.println();
+		System.out.println("Updated data: " + product);
+				
 		sc.close();
 	}
 
