@@ -24,4 +24,11 @@ public class SavingsAccount extends Account{
 	public void updateBalance() {
 		 balance += balance * interestRate;
 	}
+	
+	// aqui entra o @Override para sobrescrever a função withdraw da Classe mãe Account, visto a Classe
+	// SavingsAccount não ter taxas para levantamento.
+	@Override
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
 }

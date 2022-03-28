@@ -8,6 +8,8 @@ public class Program {
 
 	public static void main(String[] args) {
 		
+		
+		/* Teste para _UpCasting e DownCasting
 		Account acc = new Account(1001, "Alex", 0.0);
 		BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 		
@@ -28,20 +30,34 @@ public class Program {
 		// a linha acima causa um erro não detectado pelo compilador, então fazemos como os if's a seguir para testar
 		// no if a seguir ele falha executando a outra que esta correta
 		
-		//este falha
+		// este falha
 		if (acc3 instanceof BusinessAccount) {
 			BusinessAccount acc5 = (BusinessAccount)acc3;
 			acc5.loan(200.0);
 			System.out.println("Loan!");
 		}
 		
-		//certo
+		// certo
 		if (acc3 instanceof SavingsAccount) {
 			SavingsAccount acc5 = (SavingsAccount)acc3;
 			acc5.updateBalance();
 			System.out.println("Update!");
 		}
-
+		*/ // fim Teste para _UpCasting e DownCasting
+		
+		// Teste para o método @Override
+		Account acc1 = new Account(1001, "Alex", 1000.0);
+		acc1.withdraw(200.0);
+		System.out.println("Valor Account Comum -> " + acc1.getBalance());
+		
+		Account acc2 = new SavingsAccount(1002, "Maria", 1000.0, 0.01);
+		acc2.withdraw(200.0);
+		System.out.println("Valor SavingsAccount Poupança -> " + acc2.getBalance());
+		
+		Account acc3 = new BusinessAccount(1003, "Bob", 1000.0, 500.0);
+		acc3.withdraw(200.0);
+		System.out.println("Valor BusinessAccount Poupança -> " + acc3.getBalance());
+		
 	}
 
 }
