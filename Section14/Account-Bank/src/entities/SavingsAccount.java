@@ -1,5 +1,9 @@
 package entities;
 
+// Palavra final antes da declaração da clase,
+// significa que nenhuma outra classe poder ser herdar as propriedades desta.
+// public final class SavingsAccount extends Account{
+
 public class SavingsAccount extends Account{
 	
 	private Double interestRate;
