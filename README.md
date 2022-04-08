@@ -11,3 +11,4 @@
  - Seção 12 - Aula sobre Git, principais comandos (status, add, commit, push, gitignore, ...)
  - Seção 13 - Enumerações e Composição
  - Seção 14 - Herança e Polimorfismo
+ - Seção 15 - Tratamento de Exceções
