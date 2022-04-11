@@ -32,6 +32,8 @@ public class Program {
 		}
 		catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Invalid position");
+			e.printStackTrace(); // imprime o rastreamento do stack (pilha)
+			sc.next(); // faz uma paragem para podermos fazer a leitura do erro
 		}
 		catch (InputMismatchException e) {
 			System.out.println("Input error");
