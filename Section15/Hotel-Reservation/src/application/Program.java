@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 import model.entities.Reservation;
 
+
+// Very bad solution for this exercice - 15/04/2022
 public class Program {
 
 	public static void main(String[] args) throws ParseException {
