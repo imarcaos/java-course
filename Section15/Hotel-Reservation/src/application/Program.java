@@ -6,6 +6,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 import model.entities.Reservation;
+import model.exceptions.DomainException;
 
 
 // good solution for this exercice - 20/04/2022
@@ -41,7 +42,7 @@ public class Program {
 		catch (ParseException e) {
 			System.out.println("Invalid date format");
 		}
-		catch (IllegalArgumentException e) {
+		catch (DomainException e) {
 			System.out.println("Error in reservation: " + e.getMessage());
 		}
 		
