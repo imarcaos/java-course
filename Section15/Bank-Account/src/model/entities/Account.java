@@ -54,11 +54,17 @@ public class Account {
 	}
 	
 	public void withdraw(double amount) {
-		if (amount > balance) {
-			System.out.println("Withdraw error: Not enough balance");
+		this.balance -= amount;
+	}
+	
+	// Intermediary function to see the bad coding
+	public String validateWithdraw(double amount) {
+		if (amount > getWithdrawLimit()) {
+			return "Withdraw error: The amount exceeds withdraw limit";
 		}
-		else {
-			this.balance -= amount;
+		if (amount > getBalance()) {
+			return "Withdraw error: Not enough balance";
 		}
+		return null;
 	}
 }
