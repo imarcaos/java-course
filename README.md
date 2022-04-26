@@ -12,3 +12,5 @@
  - Seção 13 - Enumerações e Composição
  - Seção 14 - Herança e Polimorfismo
  - Seção 15 - Tratamento de Exceções
+ - Seção 16 - Jogo de Xadres - aplicando tudo que foi estudado até a seção 15
+ - seção 17 - Trabalhando com Arquivos
