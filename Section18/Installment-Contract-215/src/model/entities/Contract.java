@@ -9,7 +9,6 @@ public class Contract {
 	private Double totalValue;
 	
 	public Contract(Integer number, Date date, Double totalValue) {
-		super();
 		this.number = number;
 		this.date = date;
 		this.totalValue = totalValue;
