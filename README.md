@@ -15,3 +15,4 @@
  - Seção 16 - Jogo de Xadres - aplicando tudo que foi estudado até a seção 15
  - Seção 17 - Trabalhando com Arquivos
  - Seção 18 - Interfaces
+ - Seção 19 - Generics, Set, Map
