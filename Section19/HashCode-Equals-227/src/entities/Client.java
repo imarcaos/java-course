@@ -27,15 +27,12 @@ public class Client {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	// Botao direito mouse > source > Generate hashcode() and equals()
-	// escolher a opção nome para o exemplo
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(name);
-	}	
-	
+		return Objects.hash(email, name);
+	}
+
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -45,8 +42,13 @@ public class Client {
 		if (getClass() != obj.getClass())
 			return false;
 		Client other = (Client) obj;
-		return Objects.equals(name, other.name);
+		return Objects.equals(email, other.email) && Objects.equals(name, other.name);
 	}
+	
+	// Botao direito mouse > source > Generate hashcode() and equals()
+	// escolher a opção nome para o exemplo
+	
+	
 	
 	
 	
