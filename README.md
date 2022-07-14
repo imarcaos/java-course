@@ -16,3 +16,4 @@
  - Seção 17 - Trabalhando com Arquivos
  - Seção 18 - Interfaces
  - Seção 19 - Generics, Set, Map
+ - Seção 20 - Expressão Funcional e expressões Lambda
