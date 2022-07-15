@@ -17,9 +17,9 @@ public class Program {
 		list.add(new Product("Tablet", 450.00));
 		
 		// another example. using a Lambda Expression - Arrow Function
-		Comparator<Product> comp = (p1, p2) -> {
-			return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
-		};
+		// (p1, p2) -> recebe uma função de 2 argumentos
+		// que retorna o p1.getName.....
+		Comparator<Product> comp = (p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 		
 		/*
 				
