@@ -3,9 +3,9 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Consumer;
 
 import entities.Product;
-import util.PriceUpdate;
 
 public class Program {
 
@@ -20,10 +20,15 @@ public class Program {
 		list.add(new Product("HD Case", 80.90));
 		
 		
-		//Class 255 - forEach - Consumer Method
-		//v3 -  reference method with non static method
+		//Class 255 - forEach
+		//v4 -  expression lambda declared
+		double factor = 1.1;
 		
-		list.forEach(Product::nonStaticPriceUpdate);
+		Consumer<Product> cons = p -> {
+			p.setPrice(p.getPrice() * factor);
+		};
+		
+		list.forEach(cons);
 		
 		list.forEach(System.out::println);
 
