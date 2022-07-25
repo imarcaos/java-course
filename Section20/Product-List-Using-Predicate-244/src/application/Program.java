@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Locale;
 
 import entities.Product;
+import util.PriceUpdate;
 
 public class Program {
 
@@ -18,26 +19,13 @@ public class Program {
 		list.add(new Product("Tablet", 350.00));
 		list.add(new Product("HD Case", 80.90));
 		
-		//1 - Utilizando Implementação de Interface
-		// ProductPredicate
 		
-		//2 - Utilizando referência para método - Method Reference
-		//list.removeIf(Product::staticProductPredicate);
+		//Class 255 - forEach - Consumer Method
+		//v1
 		
-		//3 - Utilizando referência para método não estático - Method Reference No Static
-		//list.removeIf(Product::nonStaticProductPredicate);
+		list.forEach(new PriceUpdate());
 		
-		//4 - Utilizando expressão lambda declarada
-		//Predicate<Product> pred = p -> p.getPrice() >= 100.0;
-		//list.removeIf(pred);
-		
-		//5 - Utilizando expressão lambda inline
-		double min = 100.0;
-		list.removeIf(p -> p.getPrice() >= min);
-		
-		for (Product p : list) {
-			System.out.println(p);
-		}
+		list.forEach(System.out::println);
 
 	}
 
