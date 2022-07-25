@@ -21,9 +21,9 @@ public class Program {
 		
 		
 		//Class 255 - forEach - Consumer Method
-		//v1
+		//v2 -  reference method with static method
 		
-		list.forEach(new PriceUpdate());
+		list.forEach(Product::staticPriceUpdate);
 		
 		list.forEach(System.out::println);
 
