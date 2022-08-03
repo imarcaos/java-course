@@ -3,9 +3,10 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 import entities.Product;
+import util.UpperCaseName;
 
 public class Program {
 
@@ -20,14 +21,15 @@ public class Program {
 		list.add(new Product("HD Case", 80.90));
 		
 		
-		//Class 255 - forEach
-		//v5 -  expression lambda inline
-		double factor = 1.1;
+		//Class 257 - Function<Product, String>
+		// vamos usar a função "map" diferente da "Map" de estrutura de dados
+		// a função map gera uma nova stream
 		
-		list.forEach(p -> p.setPrice(p.getPrice() * factor));
+		List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
 		
-		list.forEach(System.out::println);
-
+		names.forEach(System.out::println);
+		
+		
 	}
 
 }
