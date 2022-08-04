@@ -24,9 +24,9 @@ public class Program {
 		//Class 257 - Function<Product, String>
 		// vamos usar a função "map" diferente da "Map" de estrutura de dados
 		// a função map gera uma nova stream
-		// v1 - Interface Implements
+		// v2 - Reference Method with method Static
 		
-		List<String> names = list.stream().map(new UpperCaseName()).collect(Collectors.toList());
+		List<String> names = list.stream().map(Product::staticUpperCaseName).collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
 		
