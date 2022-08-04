@@ -24,11 +24,9 @@ public class Program {
 		//Class 257 - Function<Product, String>
 		// vamos usar a função "map" diferente da "Map" de estrutura de dados
 		// a função map gera uma nova stream
-		// v4 - Lambda Expression Declared
-		
-		Function<Product, String> func = p -> p.getName().toUpperCase();
-		
-		List<String> names = list.stream().map(func).collect(Collectors.toList());
+		// v5 - Lambda Expression InLine
+				
+		List<String> names = list.stream().map(p -> p.getName().toUpperCase()).collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
 		
