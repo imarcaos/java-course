@@ -3,10 +3,10 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 import entities.Product;
-import util.UpperCaseName;
 
 public class Program {
 
@@ -24,9 +24,11 @@ public class Program {
 		//Class 257 - Function<Product, String>
 		// vamos usar a função "map" diferente da "Map" de estrutura de dados
 		// a função map gera uma nova stream
-		// v3 - Reference Method with method non Static
+		// v4 - Lambda Expression Declared
 		
-		List<String> names = list.stream().map(Product::nonStaticUpperCaseName).collect(Collectors.toList());
+		Function<Product, String> func = p -> p.getName().toUpperCase();
+		
+		List<String> names = list.stream().map(func).collect(Collectors.toList());
 		
 		names.forEach(System.out::println);
 		
