@@ -3,11 +3,7 @@ package application;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
-<<<<<<< HEAD
-=======
-import java.util.function.Function;
 import java.util.stream.Collectors;
->>>>>>> ex257v1
 
 import entities.Product;
 
