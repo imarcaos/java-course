@@ -22,10 +22,11 @@ public class Program {
 		
 		//Class 258 - Parameter Function
 		// V2 - using predicate and lambda expression
+		// test 2 with another predicate
 		
 		ProductService ps = new ProductService();
 		
-		double sum = ps.filteredSum(list, p -> p.getName().charAt(0) == 'T');
+		double sum = ps.filteredSum(list, p -> p.getPrice() < 100.0);
 		
 		System.out.println("Sum = " + String.format("%.2f", sum));
 		
