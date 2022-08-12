@@ -29,9 +29,6 @@ public class Program {
 		double sum = ps.filteredSum(list, p -> p.getPrice() < 100.0);
 		
 		System.out.println("Sum = " + String.format("%.2f", sum));
-		
-		
-		
 	}
 
 }
