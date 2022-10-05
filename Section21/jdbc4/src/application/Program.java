@@ -10,7 +10,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		//exercise 271 - data update
+		//exercise 271 JDBC - data update
 		Connection conn = null;
 		PreparedStatement st = null;
 		try {
