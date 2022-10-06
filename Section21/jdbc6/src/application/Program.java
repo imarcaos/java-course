@@ -24,10 +24,10 @@ public class Program {
 			int rows1 = st.executeUpdate("UPDATE seller SET BaseSalary = 2090 where DepartmentId = 1");
 			
 			// Simulate a error to brake the transaction
-			int x = 1;
-			if (x < 2) {
-				throw new SQLException("Fake error");
-			}
+//			int x = 1;
+//			if (x < 2) {
+//				throw new SQLException("Fake error");
+//			}
 
 			int rows2 = st.executeUpdate("UPDATE seller SET BaseSalary = 3090 where DepartmentId = 2");
 			
