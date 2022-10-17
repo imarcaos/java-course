@@ -8,11 +8,12 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		// ex281 - JDBC Project - implementation findById
+		// ex282 - JDBC Project - Instantiation Reuse
 		
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
+		System.out.println("=== TEST 1: seller findById =====");
 		Seller seller = sellerDao.findById(3);
 		
 		System.out.println(seller);
