@@ -17,3 +17,6 @@
  - Seção 18 - Interfaces
  - Seção 19 - Generics, Set, Map
  - Seção 20 - Expressão Funcional e expressões Lambda
+ - Seção 21 - Acesso a Banco de Dados com JDBC
+ - Seção 22 - Java EE - Mapeando objeto-relacional com JPA / Hibernate
+ 
