@@ -2,7 +2,7 @@
 
  Curso Java atual (2021) que serve para minha revisão, visto o último contato que tive com Java ter sido em 2006
 
- Começo a detalhar alguns exercícios apartir da seção 08, sendo as seções anteriores voltada mais para a revisão de conceitos básicos de programação.
+ Começo a detalhar alguns exercícios através de comentários no próprio código apartir da seção 08, sendo as seções anteriores voltada mais para a revisão de conceitos básicos de programação.
 
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
@@ -19,4 +19,7 @@
  - Seção 20 - Expressão Funcional e expressões Lambda
  - Seção 21 - Acesso a Banco de Dados com JDBC
  - Seção 22 - Java EE - Mapeando objeto-relacional com JPA / Hibernate
+ - - <a href="https://www.youtube.com/watch?v=nXKvizIYwP8&list=PLNuUvBZGBA8mcAF-YX7RJhA26TBLdG5yk">Instalação da IDE STS no Linux (Ubuntu e derivados)<a>
+
+
  
