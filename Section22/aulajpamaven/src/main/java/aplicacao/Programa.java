@@ -6,7 +6,7 @@ public class Programa {
 
 	public static void main(String[] args) {
 		
-		// ex292 leveling JPA/Hibernate part1
+		// ex293 leveling JPA/Hibernate part2-working with Maven
 		
 		Pessoa p1 = new Pessoa(1, "Carlos da Silva", "carlos@gmail.com");
 		Pessoa p2 = new Pessoa(2, "Joaquim Torres", "joaquim@gmail.com");
