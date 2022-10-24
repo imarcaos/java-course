@@ -29,9 +29,19 @@ public class Programa {
 		em.getTransaction().commit();
 		*/
 		
-		Pessoa p = em.find(Pessoa.class, 2);
-		
+		/* ex2 - find object
+		Pessoa p = em.find(Pessoa.class, 2);		
 		System.out.println(p);
+		*/
+		
+		// ex3 - remove object
+		//Pessoa p = new Pessoa(2, null, null); // this way don't work
+		// para o código funcionar sempre precisamos inserir um objeto(1º) ou recuperar do DB e incluir uma transação(2º)
+		// 2º método abaixo
+		em.getTransaction().begin();
+		Pessoa p = em.find(Pessoa.class, 2);
+		em.remove(p);
+		em.getTransaction().commit();
 		
 		System.out.println("Pronto!");
 		em.close();
