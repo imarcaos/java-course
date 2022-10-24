@@ -18,9 +18,12 @@
  - Seção 19 - Generics, Set, Map
  - Seção 20 - Expressão Funcional e expressões Lambda
  - Seção 21 - Acesso a Banco de Dados com JDBC
+ - - Instalação do MySQL e do MySQL WorkBench
  - Seção 22 - Java EE - Mapeando objeto-relacional com JPA / Hibernate
  - - <a href="https://www.youtube.com/watch?v=gBZ9kh3r2Lg">Instalação da IDE STS no Linux (Ubuntu e derivados)<a>
  - - <a href="https://www.youtube.com/watch?v=CoEZ53Qim8E">Instalação do PostMan (Ubuntu e derivados)<a>
+ - - Instalação do Xammp para usar MySqlDB e PhpMyAdmin
+ - Seção 23 - Projeto: Web Services com Spring Boot e JPA/Hibernate
 
 
 
