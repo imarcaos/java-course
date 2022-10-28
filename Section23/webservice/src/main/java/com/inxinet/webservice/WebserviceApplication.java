@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// ex300 - WebService with SpringBoot and JPA-Hibernate - H2 DB-test profile-JPA
+		// ex301 - WebService with SpringBoot and JPA-Hibernate - JPA repository-dependency injection, database seeding
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
