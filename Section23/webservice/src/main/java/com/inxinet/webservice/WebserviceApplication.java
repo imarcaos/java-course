@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// ex302 - WebService with SpringBoot and JPA-Hibernate - Service Layer-Component Registration
+		// ex303 - WebService with SpringBoot and JPA-Hibernate - Order entity - Dates with Instant and Standart Iso8601 - Part1
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
