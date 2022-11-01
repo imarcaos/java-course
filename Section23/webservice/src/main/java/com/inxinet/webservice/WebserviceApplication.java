@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// ex304 - WebService with SpringBoot and JPA-Hibernate - Order, Instant, ISO 8601 - Part2
+		// e.g.305 - WebService with SpringBoot and JPA-Hibernate - Enum OrderStatus
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
