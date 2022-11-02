@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// e.g.306 - WebService with SpringBoot and JPA-Hibernate - Entity Category
+		// e.g.307 - WebService with SpringBoot and JPA-Hibernate - Product Entity
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
