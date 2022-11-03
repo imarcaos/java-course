@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// e.g.307 - WebService with SpringBoot and JPA-Hibernate - Product Entity
+		// e.g.309 - WebService with SpringBoot and JPA-Hibernate - OrderItem, many-to-many association with extra attributes-part1
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
