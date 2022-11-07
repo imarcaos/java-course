@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - ex.312 - Payment Entity - one-to-one association
+		// WebService with SpringBoot and JPA-Hibernate - ex.313 - Subtotal & Total methods
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
