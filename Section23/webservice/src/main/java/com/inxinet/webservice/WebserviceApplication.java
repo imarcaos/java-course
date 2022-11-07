@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - e.g.311 - many-to-many association between Product and OrderItem
+		// WebService with SpringBoot and JPA-Hibernate - ex.312 - Payment Entity - one-to-one association
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
