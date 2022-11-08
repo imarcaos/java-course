@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - ex.315 - User Delete
+		// WebService with SpringBoot and JPA-Hibernate - ex.316 - User Update
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
