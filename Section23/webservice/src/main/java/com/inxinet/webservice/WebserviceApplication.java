@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - ex.317 - Exception handling - findByd
+		// WebService with SpringBoot and JPA-Hibernate - ex.318 - Exception handling - delete
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
