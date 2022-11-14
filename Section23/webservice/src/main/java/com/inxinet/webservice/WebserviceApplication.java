@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - ex.319 - Exception handling - update
+		// WebService with SpringBoot and JPA-Hibernate - ex.323 - Dev profile
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
