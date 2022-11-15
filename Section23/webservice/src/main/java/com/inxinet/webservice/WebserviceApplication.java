@@ -8,7 +8,7 @@ public class WebserviceApplication {
 
 	public static void main(String[] args) {
 		
-		// WebService with SpringBoot and JPA-Hibernate - ex.323 - Dev profile
+		// WebService with SpringBoot and JPA-Hibernate - ex.327 - Deploy app to Heroku
 		SpringApplication.run(WebserviceApplication.class, args);
 	}
 
