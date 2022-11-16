@@ -24,6 +24,9 @@
  - - <a href="https://www.youtube.com/watch?v=CoEZ53Qim8E">Instalação do PostMan (Ubuntu e derivados)<a>
  - - Instalação do Xammp para usar MySqlDB e PhpMyAdmin
  - Seção 23 - Projeto: Web Services com Spring Boot e JPA/Hibernate
+ - - Instalação do PostgreSQL e Utilização do Heroku (versão gratuita do Heroku não está mais disponível - não utilizei)
+ - Seção 24 - JProject API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
+ - - Instalação do MongoDB e MongoDB Compass
 
 
 
