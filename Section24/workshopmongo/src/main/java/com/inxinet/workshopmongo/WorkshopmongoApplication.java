@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 	
 	// Project API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
-	// ex.335 - First Commit - Project Creation
+	// ex.337 - Entity User and REST working
 
 	public static void main(String[] args) {
 		SpringApplication.run(WorkshopmongoApplication.class, args);
