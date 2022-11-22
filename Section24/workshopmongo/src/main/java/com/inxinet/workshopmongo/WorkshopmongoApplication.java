@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 	
 	// Project API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
-	// ex.339 - database instantiation operation
+	// ex.340 - use DTO pattern to return results
 
 	public static void main(String[] args) {
 		SpringApplication.run(WorkshopmongoApplication.class, args);
