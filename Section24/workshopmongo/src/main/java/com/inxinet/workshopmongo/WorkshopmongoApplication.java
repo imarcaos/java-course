@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 	
 	// Project API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
-	// ex.341 - getting a user by id
+	// ex.342 - User insert with POST
 
 	public static void main(String[] args) {
 		SpringApplication.run(WorkshopmongoApplication.class, args);
