@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 	
 	// Project API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
-	// ex.350 - Getting a post by id
+	// ex.351 - Added comments to posts
 	public static void main(String[] args) {
 		SpringApplication.run(WorkshopmongoApplication.class, args);
 	}
