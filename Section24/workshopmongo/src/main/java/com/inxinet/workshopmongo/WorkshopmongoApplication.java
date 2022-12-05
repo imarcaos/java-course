@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopmongoApplication {
 	
 	// Project API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
-	// ex.352 - Simple consult with query methods
+	// ex.353 - Simple consult with annotation @Query
 	public static void main(String[] args) {
 		SpringApplication.run(WorkshopmongoApplication.class, args);
 	}
