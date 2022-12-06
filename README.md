@@ -27,7 +27,9 @@
  - - Instalação do PostgreSQL e Utilização do Heroku (versão gratuita do Heroku não está mais disponível - não utilizei)
  - Seção 24 - JProject API Restful with Spring Boot and MongoDB (WebServices + NoSQL)
  - - Instalação do MongoDB e MongoDB Compass
-
+ - Seção 25 - Interface Gráfica com JavaFX
+ - - Instalação do Scene Builder
+ - - Preparação do Eclipse
 
 
  
