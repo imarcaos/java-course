@@ -29,7 +29,7 @@
  - - Instalação do MongoDB e MongoDB Compass
  - Seção 25 - Interface Gráfica com JavaFX
  - - Instalação do Scene Builder
- - - Preparação do Eclipse
+ - - Preparação do Eclipse - configuração do caminho SceneBuilder executable no Linux (/opt/scenebuilder/bin/SceneBuilder)
 
 
  
