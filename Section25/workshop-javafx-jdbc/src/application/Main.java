@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.371 - MainView design
+//ex.372 - MainView controller
 
 public class Main extends Application {
 
