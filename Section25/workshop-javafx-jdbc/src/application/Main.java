@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.375 - DepartmentList controller
+//ex.376 - DepartmentList service
 
 public class Main extends Application {
 	
