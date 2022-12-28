@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.376 - DepartmentList service
+//ex.377 - Initializing action as parameter - Consumer
 
 public class Main extends Application {
 	
