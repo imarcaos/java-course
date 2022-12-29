@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.377 - Initializing action as parameter - Consumer
+//ex.378 - Adding database access
 
 public class Main extends Application {
 	
