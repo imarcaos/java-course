@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.378 - Adding database access
+//ex.379 - DepartmentForm - dialog design
 
 public class Main extends Application {
 	
