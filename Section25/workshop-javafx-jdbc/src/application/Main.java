@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.379 - DepartmentForm - dialog design
+//ex.380 - DepartmentFormController
 
 public class Main extends Application {
 	
