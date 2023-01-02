@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.381 - Passing a Department object to DepartmentForm view
+//ex.382 - Saving a new Department
 public class Main extends Application {
 	
 	private static Scene mainScene;
