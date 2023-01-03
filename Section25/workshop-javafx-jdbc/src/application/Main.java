@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.382 - Saving a new Department
+//ex.383 - Observer design pattern to update tableview
 public class Main extends Application {
 	
 	private static Scene mainScene;
