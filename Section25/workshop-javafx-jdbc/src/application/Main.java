@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.383 - Observer design pattern to update tableview
+//ex.384 - Validation Exception
 public class Main extends Application {
 	
 	private static Scene mainScene;
