@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.387 - SellerList
+//ex.389 - Seller TableView
 public class Main extends Application {
 	
 	private static Scene mainScene;
