@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.386 - Remove Department
+//ex.387 - SellerList
 public class Main extends Application {
 	
 	private static Scene mainScene;
