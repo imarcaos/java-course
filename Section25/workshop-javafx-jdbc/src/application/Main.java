@@ -9,7 +9,7 @@ import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 //Graphic Interface with JavaFX - 
-//ex.394 - Building JAR file
+//ex.395 - Installation
 public class Main extends Application {
 	
 	private static Scene mainScene;
