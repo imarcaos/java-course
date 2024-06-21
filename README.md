@@ -1,8 +1,32 @@
-# Curso Java
+# Curso Java - Programação Orientada a Objetos
 
- Curso Java atual (2021) que serve para minha revisão, visto o último contato que tive com Java ter sido em 2006
+ Estes são apontamentos pessoais de um Curso de Java que serve para minha revisão, visto o último contato que tive com Java ter sido em 2006. Aproveito todos os códigos e update do Readme para praticar o uso do Git.
 
- Começo a detalhar alguns exercícios através de comentários no próprio código apartir da seção 08, sendo as seções anteriores voltada mais para a revisão de conceitos básicos de programação.
+ Os exercícios e explicações serão comentados no próprio código.
+
+ - Seção 01 - Introdução
+    - A1 - Introdução e Visão Geral do Curso
+    - A2 - Mapa de Estudos da Carreira Java
+
+- Seção 02 - Conceitos de Programação
+    - A03 - Visão Geral do capítulo
+    - A04 - Material de Apoio
+    - A05 - Algoritmo, Automação, Programa de Computador
+    - A06 - O que é preciso para fazer um programa de computador
+    - A07 - Linguagem de programação léxica e sintática.
+    - A08 - IDE - Ambiente Integrado de Desenvolvimento
+    - A09 - Compilação, interpretação, código fonte, código objeto, máquina virtual
+
+- Seção 03 - Introdução a Linguagem Java
+    - A10 - Visão geral do capítulo
+    - A11 - Material de apoio
+    - A12 - Entendendo as versões do Java
+    - A13 - Histórico e edições do Java
+    - A14 - JDK/JVM - Máquina virtual do Java
+    - A15 - Estrutura de uma aplicação Java
+    - A16 - Instalando o Java JDK 
+    - A17 - Instalando o Eclipse
+    - A18 - Primeiro programa em Java
 
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
