@@ -28,6 +28,15 @@
     - A17 - Instalando o Eclipse
     - A18 - Primeiro programa em Java
 
+- Seção 04 - Estrutura Sequencial
+    - A19 - Visão Geral do capítulo
+    - A20 - Material de Apoio
+    - A21 - Expressões Aritméticas
+    - A22 - Variáveis e tipos básicos em Java
+    - A23 - As três operações básicas da programação
+    - A24 - Saída de dados em Java
+    -
+
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
  - Seção 10 - Comportamento memória, arrays e listas.
