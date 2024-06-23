@@ -1,6 +1,8 @@
 # Curso Java - Programação Orientada a Objetos
 
  Estes são apontamentos pessoais de um Curso de Java que serve para minha revisão, visto o último contato que tive com Java ter sido em 2006. Aproveito todos os códigos e update do Readme para praticar o uso do Git.
+ Logs:
+ 2024-06-22 - Estou reorganizando meu Readme e códigos e aproveitando para testar o IntelliJ, depois de uma longa data de uso o Eclipse e um pouco de Netbeans por causa de um curso no IEFP, estou a gostar imenso de trabalhar como o IntelliJ até o momento.
 
  Os exercícios e explicações serão comentados no próprio código.
 
@@ -35,7 +37,9 @@
     - A22 - Variáveis e tipos básicos em Java
     - A23 - As três operações básicas da programação
     - A24 - Saída de dados em Java
-    -
+    - A25 - Processamento de dados em Java, Casting
+    - A26 - Entrada de dados em Java, Pt1
+    - A27 - Entrada de dados em Java, Pt2
 
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
