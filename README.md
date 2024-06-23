@@ -40,6 +40,7 @@
     - A25 - Processamento de dados em Java, Casting
     - A26 - Entrada de dados em Java, Pt1
     - A27 - Entrada de dados em Java, Pt2
+    - A28 - Funções Matemática em Java
 
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
