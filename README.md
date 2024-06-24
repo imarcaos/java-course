@@ -41,6 +41,50 @@
     - A26 - Entrada de dados em Java, Pt1
     - A27 - Entrada de dados em Java, Pt2
     - A28 - Funções Matemática em Java
+    - A29 - Exercícios para iniciantes Pt1 - Explicação
+    - A30 - Execícios para iniciantes PT2 - Recursos
+
+- Seção 05 - Estrutura Condicional
+    - A31 - Visão geral do capítulo
+    - A32 - Material de apoio
+    - A33 - Expressões comparativas (>, <, >=, <=, ==, !=)
+    - A34 - Expressões Lógicas (&&, ||, !)
+    - A35 - Estrutura condicional (if-else)
+    - A36 - Exercícios para iniciantes Pt2 - Explicação
+    - A37 - Exercícios para iniciantes Pt2 - Recursos
+    - A38 - Sintaxe Opcional - operadores de atribuição cumulativa (+=, -=, *=, /=, %=)
+    - A39 - Sintaxe Opcional - switch-case
+    - A40 - Expressão condicional ternária
+        - ex: `(condição) ? valor_se_verdadeiro : valor_se_falso`
+    - A41 - Escopo e Inicialização
+        - se a variável é global ou local e inicialização antes da sua chamada.
+
+- Seção 06 - Estrutura Repetitivas
+    - A42 - Visão Geral do capítulo
+    - A43 - Material de apoio
+    - A44 - Como utilizar o Debug no Eclipse (execução passo a passo)
+    - A45 - Estrutura repetitiva while
+    - A46 - Teste de mesa com estrutura repetitiva while (manual no papel)
+    - A47 - Exercícios de teste de mesa com while
+    - A48 - Exercícios para iniciantes Pt3 - explicação
+    - A49 - Exercícios para iniciantes Pt3 - recursos
+    - A50 - Estrutura repetitiva for
+    - A51 - Teste de mesa para estrutura repetitiva for
+    - A52 - Exercícios de testes de mesa com for
+    - A53 - Exercícios para iniciantes Pt4 - explicação
+    - A54 - Exercícios para iniciantes Pt4 - recursos
+    - A55 - Estrutura repetitiva do-while
+
+- Seção 07 - Outros Tópicos Básicos sobre Java
+    - A56 - Material de apoio
+    - A57 - Restrições e convenções para nomes
+    - A58 - Operadores bitwise
+    - A59 - Funções interessantes para String
+    - A60 - Comentários em Java (básico)
+    - A61 - Funções (sintaxe)
+
+
+
 
  - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
  - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
