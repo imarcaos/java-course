@@ -83,11 +83,39 @@
     - A60 - Comentários em Java (básico)
     - A61 - Funções (sintaxe)
 
+- Seção 08 - Introdução a Programação Orientação a Objetos
+    - A62 - Visão geral do capítulo
+    - A63 - Material de Apoio
+    - A64 - Resolvendo um problemas sem Orientação a Objetos
+    - A65 - Classe com três atributos para o Triângulo
+    - A66 - Métodos para aproveitar código e delegar responsabilidades
+    - A67 - Resolvendo um segundo problema - Estoque de produto
+    - A68 - Object e toString
+        - Por exemplo, podemos sobrepor o método toString da Classe Object do Java, reescrevendo da forma que necessitamos:
+    ``` .java
+    public String toString() {
+            return name
+                    + ", $ "
+                    + String.format("%.2f", price)
+                    + ", "
+                    + quantity
+                    + " units, Total: $ "
+                    + String.format("%.2f", totalValueInStock());
+    }
+    ```
+    - A69 - Finalizando o programa
+    - A70 - Exercícios de Fixação
+        - ex1: Calcular o Área, Perímetro e Diagonal de um Retângulo.
+        - ex2: Calcular o Salário de um funcionário.
+    - A71 - Membros estáticos Pt1
+        - Instanciar membros de uma classe estática de outra classe não estática
+    - A72 - Membros estáticos Pt2
+        - Instanciar membros de uma classe estática de outra classe estática
+    - A73 - Exercícios de fixação
 
+- Seção 09 - Construtores, this, sobrecarga e encapsulamento.
+    - A74 - Visão Geral do Capítulo
 
-
- - Seção 08 - Orientação a Objetos: Classes, Atributos, Métodos e Membros Estáticos.
- - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
  - Seção 10 - Comportamento memória, arrays e listas.
  - Seção 11 - Trabalhando com 'Date' (SimpleDateFormat, Calendar)
  - Seção 12 - Aula sobre Git, principais comandos (status, add, commit, push, gitignore, ...)
