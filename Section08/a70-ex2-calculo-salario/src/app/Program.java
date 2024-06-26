@@ -27,7 +27,7 @@ public class Program {
         double percentage = sc.nextDouble();
         sc.nextLine();
         System.out.printf("%nUpdated data: " + ee.name + ", $ %.2f%n", ee.increaseSalary(percentage));
-        
+
         sc.close();
     }
 }

@@ -107,6 +107,7 @@
     - A70 - Exercícios de Fixação
         - ex1: Calcular o Área, Perímetro e Diagonal de um Retângulo.
         - ex2: Calcular o Salário de um funcionário.
+        - ex3: Verificar se o Aluno foi validado (média das notas)
     - A71 - Membros estáticos Pt1
         - Instanciar membros de uma classe estática de outra classe não estática
     - A72 - Membros estáticos Pt2
