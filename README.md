@@ -112,7 +112,8 @@
         - Instanciar membros de uma classe estática de outra classe não estática
     - A72 - Membros estáticos Pt2
         - Instanciar membros de uma classe estática de outra classe estática
-    - A73 - Exercícios de fixação
+    - A73 - Exercícios de fixação        
+        - ex4: Conversão de moedas com taxa estática
 
 - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
     - A74 - Visão Geral do Capítulo
