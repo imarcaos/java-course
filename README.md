@@ -117,8 +117,28 @@
 
 - Seção 09 - Construtores, this, sobrecarga e encapsulamento.
     - A74 - Visão Geral do Capítulo
+    - A75 - Material de Apoio
+    - A76 - Construtores
+    - A77 - Palavra this
+    - A78 - Sobrecarga
+    - A79 - Encapsulamento
+    - A80 - Gerando automaticamente construtores, getters e setters (Eclipse)
+    - A81 - Modificadores de Acesso
+    - A82 - Exercícios de fixação - Bank Account
+    - A83 - Correção do exercício de fixação Pt1
+    - A84 - Correção do exercício de fixação Pt2
 
- - Seção 10 - Comportamento memória, arrays e listas.
+- Seção 10 - Comportamento de memória, arrays e listas.
+    - A85 - Visão Geral do Capítulo
+    - A86 - Material de Apoio
+    - A87 - Tipos referência vs tipo valor
+    - A88 - Deslocações de memória - garbage collector e escopo local
+    - A89 - Vetores Pt1
+    - A90 - Vetores Pt2
+    - A91 - Exercícios de Fixação sobre vetores - a91_ex1_boarding_house
+    - A92 - 
+
+
  - Seção 11 - Trabalhando com 'Date' (SimpleDateFormat, Calendar)
  - Seção 12 - Aula sobre Git, principais comandos (status, add, commit, push, gitignore, ...)
  - Seção 13 - Enumerações e Composição
