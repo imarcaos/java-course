@@ -1,8 +1,9 @@
 # Curso Java - Programação Orientada a Objetos
 
  Estes são apontamentos pessoais de um Curso de Java que serve para minha revisão, visto o último contato que tive com Java ter sido em 2006. Aproveito todos os códigos e update do Readme para praticar o uso do Git.
- Logs:
- 2024-06-22 - Estou reorganizando meu Readme e códigos e aproveitando para testar o IntelliJ, depois de uma longa data de uso o Eclipse e um pouco de Netbeans por causa de um curso no IEFP, estou a gostar imenso de trabalhar como o IntelliJ até o momento.
+ 
+ Logs: 
+ 2024-06-22 - Estou reorganizando meu Readme e códigos e aproveitando para testar o IntelliJ, depois de uma longa data de uso o Eclipse e um pouco de Netbeans na faculdade e em uma formação no IEFP.
 
  Os exercícios e explicações serão comentados no próprio código.
 
@@ -136,7 +137,19 @@
     - A89 - Vetores Pt1
     - A90 - Vetores Pt2
     - A91 - Exercícios de Fixação sobre vetores - a91_ex1_boarding_house
-    - A92 - 
+    - A92 - Correção do exercício Negativos
+    - A93 - Correção do exercício Alturas
+    - A94 - Desafio sobre o Pensionato (Boarding House)
+    - A95 - Correção sobre vetores Pensionato (Boarding House)
+    - A96 - Boxing, unboxing e wrapper classes
+    - A97 - Laço for each
+    - A98 - Listas Pt1
+    - A99 - Listas Pt2
+    - A100 - Exercício proposto
+    - A101 - Correção em vídeo do exercício proposto.
+    - A102 - Matrizes
+    - A103 - Exercício resolvido
+    - A104 - Exercício proposto - Criar um Matriz M x N - a104_ex1_Matrizes_MxN
 
 
  - Seção 11 - Trabalhando com 'Date' (SimpleDateFormat, Calendar)
